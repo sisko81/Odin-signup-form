@@ -20,14 +20,14 @@ body {
     display: flex;
     justify-content: center;
     height: 100vh;
-    width: 68%;
+    width: 100%;
 }
 
 .image-bg-container {
     background-color: rgba(36, 156, 36, 0.432);
     color: white;
     font-weight: 100;
-    width: 42%;
+    width: 45%;
 }
 
 .form-container {
