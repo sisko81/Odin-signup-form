@@ -21,15 +21,22 @@ html, body {
 }
 
 .image-bg-container {
+    background: url(/images/teemu-paananen-OOE4xAnBhKo-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     background-color: rgba(36, 156, 36, 0.432);
     color: white;
     font-weight: 100;
-    width: 45%;
+    width: 55%;
 }
 
 .form-container {
     background-color: whitesmoke;
-    width: 70%;
+    width: 100%;
+}
+
+.form {
+    background-color: white;
 }
 
 
