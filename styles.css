@@ -1,3 +1,11 @@
+@font-face {
+    font-family: 'Norse-Bold';
+    src: url('/Norse-Bold.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
 *  {
     padding: 0;
     margin: 0;
@@ -28,6 +36,29 @@ html, body {
     color: white;
     font-weight: 100;
     width: 55%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-text-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 7px;
+    height: 20%;
+    font-size: 2.5rem;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.odin-font {
+    font-family: 'Norse-Bold';
+    font-size: 5.4rem;
+}
+
+img {
+    height: 7.0rem;
 }
 
 .form-container {
