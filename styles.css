@@ -1,0 +1,38 @@
+*  {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(44, 42, 42);
+}
+
+.main-container {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    width: 68%;
+}
+
+.image-bg-container {
+    background-color: rgba(36, 156, 36, 0.432);
+    color: white;
+    font-weight: 100;
+    width: 42%;
+}
+
+.form-container {
+    background-color: whitesmoke;
+    width: 70%;
+}
+
+
