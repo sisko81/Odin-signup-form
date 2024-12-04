@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Poetsen+One&display=swap');
+
+
+:root {
+    padding: 0;
+    width: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(49, 48, 48);
+}
+
+.container-content {
+    width: 100dvw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+
+.transparent-background {
+    color: white;
+    background-color: black;
+    opacity: .5;
+    width: 325px;
+    height: 90px;
+    position: absolute;
+    left: 125px;
+    top: 250px;
+    display: flex;
+    justify-content: center;
+}
+
+.container-image-forest {
+    width: 200px;
+    height: auto;
+    border: 3px solid pink;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.container-text {
+    background-color: whitesmoke;
+    padding: 15px;
+    width: 500px;
+    border: 3px solid blue;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+}
+
+
+.inner-image {
+  height: 90px;
+  width: 90px; 
+}
+
+#odin-font {
+    font-family: "Poetsen One", sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    position: relative;
+    opacity: 9;
+    top: 25px;
+}
+
+form {
+    background-color: white;
+    height: 300px;
+}
+
+
+.names {
+    display: flex;
+    justify-content: space-between;
+    width: auto;
+}
+
+#first-name {
+    font-size: 12px;
+    width: 117px;
+    height: 15px;
+}
+
+#last-name {
+    font-size: 12px;
+    width: 117px;
+    height: 15px;
+}
+
+#email {
+    font-size: 12px;
+    width: 117px;
+    height: 15px;
+}
+
+#password {
+    font-size: 12px;
+    width: 117px;
+    height: 15px;
+}
+
+#password-confirmation {
+    font-size: 12px;
+    width: 117px;
+    height: 15px;
+}
+
+
+
